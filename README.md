@@ -1,7 +1,7 @@
 About sphinx-subfigure
 ======================
 
-Home: https://pypi.org/project/sphinx_subfigure/
+Home: https://github.com/chrisjsewell/sphinx-subfigure
 
 Package license: MIT
 

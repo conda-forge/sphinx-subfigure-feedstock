@@ -1,5 +1,5 @@
 {% set name = "sphinx-subfigure" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinx_subfigure-{{ version }}.tar.gz
-  sha256: 7591ed122486c40903c31ab8be7f36fdbded1b71aa4ce26a83e3259819c01c4d
+  sha256: d106193d0076bf29bb9594dbda23d3c13e9b2490e4344bc8018b6059a195de3b
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ test:
     - pip
 
 about:
-  home: https://pypi.org/project/sphinx_subfigure/
+  home: https://github.com/chrisjsewell/sphinx-subfigure
   summary: A sphinx extension to create sub-figures.
   license: MIT
   license_file: LICENSE
