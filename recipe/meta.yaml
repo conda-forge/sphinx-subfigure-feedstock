@@ -1,13 +1,13 @@
 {% set name = "sphinx-subfigure" %}
-{% set version = "0.2.4" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinx_subfigure-{{ version }}.tar.gz
-  sha256: d106193d0076bf29bb9594dbda23d3c13e9b2490e4344bc8018b6059a195de3b
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/sphinx_subfigure-{{ version }}.tar.gz
+  sha256: f04ea90a2f0683751afb5aaadcb9bb8c64dbf0e954e7191457ec0ce4373d60e0
 
 build:
   noarch: python
